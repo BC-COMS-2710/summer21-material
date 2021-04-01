@@ -1,0 +1,15 @@
+test = {   'name': 'q2_3',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # It looks like you forgot a return statement in the function;\n>>> assert max_and_min != None\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> # It looks like you forgot a to return a tuple;\n>>> assert type(max_and_min(1,2,3,4)) == tuple\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # It looks like the order of the max and min were swapped;\n>>> assert min(10, 20, 30, 40) != max_and_min(10, 20, 30, 40)[0]\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> # It looks like the order of the max and min were swapped;\n'
+                                               '>>> assert min(10, 20, 30, 40) == max_and_min(10, 20, 30, 40)[1] and max(10, 20, 30, 40) == max_and_min(10, 20, 30, 40)[0]\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
