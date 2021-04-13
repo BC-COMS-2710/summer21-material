@@ -1,0 +1,23 @@
+test = {   'name': 'q1.2',
+    'points': [0.15, 0.1, 0.1, 0.25, 0.25, 0.25, 0.25],
+    'suites': [   {   'cases': [   {   'code': '>>> # It looks like you forgot to replace "_" with a white space character;\n>>> assert not any(speeches_df.get(\'President\').str.contains("_"))\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> # Make sure that each name starts with a capital;\n>>> assert any(speeches_df.get('President').str.istitle())\n", 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert "Ronald Reagan" in set(speeches_df.get(\'President\'))\n', 'hidden': False, 'locked': False},
+                                   {   'code': ">>> # There should be 55 rows in the dataframe. We are considering all inaugural speeches unto (and including) George W. Bush's 2nd in 2005 ;\n"
+                                               '>>> assert speeches_df.shape[0] == 55\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': ">>> # The only columns should be 'President', 'Speech', and 'Year'. Case matters.;\n"
+                                               ">>> assert set(speeches_df.columns) == {'President', 'Speech', 'Year'}\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> # Each item in the Speech column should be a list of lists;\n>>> assert set(type(speech) for speech in speeches_df.Speech) == {list}\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> # Make sure the values in 'Year' are integers;\n>>> assert np.issubdtype(speeches_df['Year'].dtypes.type, int)\n", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
