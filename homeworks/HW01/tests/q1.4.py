@@ -1,0 +1,13 @@
+test = {   'name': 'q1.4',
+    'points': [0.25, 0.25, 0.25],
+    'suites': [   {   'cases': [   {   'code': ">>> # It looks like the table is sorted chronologically in descending order;\n>>> assert speeches_df.get('President').iloc[0] != 'George W. Bush'\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': ">>> # It looks like first president is not George_Washington;\n>>> assert speeches_df.get('President').iloc[0] == 'George Washington'\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> assert speeches_df.get('Year').iloc[-1] == 2005\n", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
