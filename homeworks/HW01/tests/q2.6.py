@@ -8,8 +8,8 @@ test = {   'name': 'q2.6',
                                        'locked': False},
                                    {   'code': '>>> # Make sure to use correct types;\n'
                                                '>>> assert type(president_longest_sentences) == str ;\n'
-                                               '>>> assert np.issubdtype(avg_longest_sentences_count, float) ;\n'
-                                               '>>> assert np.issubdtype(year_longest_sentences, int)\n',
+                                               '>>> assert "float" in str(type(avg_longest_sentences_count));\n'
+                                               '>>> assert "int" in str(type(year_longest_sentences))\n',
                                        'hidden': False,
                                        'locked': False}],
                       'scored': True,
