@@ -1,0 +1,11 @@
+test = {   'name': 'q1_3',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> assert type(snippet) == str\n', 'hidden': False, 'locked': False},
+                                   {'code': ">>> # Make sure you don't accidently include 4 sentences;\n>>> assert len(snippet) < 745\n", 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert not snippet.islower()\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert len(snippet) == 541\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert snippet.startswith("When most scientists")\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
