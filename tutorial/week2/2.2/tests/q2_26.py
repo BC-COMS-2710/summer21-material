@@ -1,0 +1,10 @@
+test = {   'name': 'q2_26',
+    'points': [0.5, 0.5],
+    'suites': [   {   'cases': [   {'code': ">>> assert 'days_in_office' in trump_100_days_tweet_df\n", 'hidden': False, 'locked': False},
+                                   {   'code': ">>> # Trump did not Tweet on his 77th day in office;\n>>> assert 77 not in trump_100_days_tweet_df['days_in_office'].unique()\n",
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

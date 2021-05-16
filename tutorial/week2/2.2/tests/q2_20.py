@@ -1,0 +1,10 @@
+test = {   'name': 'q2_20',
+    'points': [0.5, 0.5, 0.5, 0.5],
+    'suites': [   {   'cases': [   {'code': ">>> assert 'polarity_scores' in trump_100_days_tweet_df\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert type(trump_100_days_tweet_df['polarity_scores'].loc[0]) == dict\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert 'compound_polarity' in trump_100_days_tweet_df\n", 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert "float" in str(type(trump_100_days_tweet_df[\'compound_polarity\'].loc[0]))\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
