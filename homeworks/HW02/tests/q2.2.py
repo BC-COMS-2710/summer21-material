@@ -1,0 +1,10 @@
+test = {   'name': 'q2.2',
+    'points': [0.5, 1, 1, 1],
+    'suites': [   {   'cases': [   {'code': ">>> assert 'subject' in obits_df.keys()\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert 'hoover' in obits_df.sort_values('File_Name').iloc[0]['subject'].lower()\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert 'matisse' in obits_df.sort_values('File_Name', ascending=False).iloc[0]['subject'].lower()\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert 'joyce' in [name.lower() for name in obits_df.sort_values('Obit', ascending=False)['subject'][:10]]\n", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
