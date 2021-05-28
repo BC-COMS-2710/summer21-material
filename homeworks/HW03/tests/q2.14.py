@@ -1,0 +1,11 @@
+test = {   'name': 'q2.14',
+    'points': [1, 1, 1, 1, 1],
+    'suites': [   {   'cases': [   {'code': ">>> assert set(review_df.keys()) == set(['Review', 'Date', 'Course Name', 'Course Listing', 'Course Id', 'Prof'])\n", 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert review_df.shape[0] > 1000\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert review_df.shape[0] > 1500\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert review_df.shape[0] > 2000\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert review_df.shape[0] > 2500\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
